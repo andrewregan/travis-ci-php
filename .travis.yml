@@ -8,3 +8,4 @@ before_script:
 script:
   - ./vendor/bin/phploc src/
   - ./vendor/bin/phpunit
+  - ./vendor/bin/phpmd src/ text phpmd.xml
