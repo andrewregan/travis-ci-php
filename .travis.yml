@@ -7,3 +7,4 @@ before_script:
 
 script:
   - ./vendor/bin/phploc src/
+  - ./vendor/bin/phpunit
