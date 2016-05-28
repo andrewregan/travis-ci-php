@@ -3,7 +3,8 @@
     "description": "A simple php-ci test",
     "license": "MIT",
     "require-dev": {
-        "phpunit/phpunit": "5.3.*"
+        "phpunit/phpunit": "*",
+        "phploc/phploc": "*"
     },
 	"autoload": {
 	    "psr-4": {
