@@ -3,15 +3,15 @@ namespace Runner;
 
 class Simple
 {
-  public $test = false;
+    public $test = false;
 
-  public function __construct()
-  {
-    $this->test = 'test';
-  }
+    public function __construct()
+    {
+        $this->test = 'test';
+    }
 
-  public function reset()
-  {
-    $this->test = false;
-  }
+    public function reset()
+    {
+        $this->test = false;
+    }
 }

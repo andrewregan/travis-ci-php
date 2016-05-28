@@ -7,5 +7,7 @@ before_script:
 
 script:
   - ./vendor/bin/phploc src/
+  - ./vendor/bin/phpcpd src/
+  - ./vendor/bin/phpcs src/ --standard=PSR2
   - ./vendor/bin/phpunit
   - ./vendor/bin/phpmd src/ text phpmd.xml

@@ -5,7 +5,9 @@
     "require-dev": {
         "phpunit/phpunit": "*",
         "phploc/phploc": "*",
-        "phpmd/phpmd" : "@stable"
+        "phpmd/phpmd" : "@stable",
+        "sebastian/phpcpd": "*",
+        "squizlabs/php_codesniffer": "*"
     },
 	"autoload": {
 	    "psr-4": {
